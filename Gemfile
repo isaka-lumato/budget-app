@@ -4,15 +4,17 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.0.3'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 7.0.1'
-
-gem 'rubocop', '>= 1.0', '< 2.0'
-
+gem 'rails', '~> 7.0.2', '>= 7.0.2.2'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
+# Devise gem
+gem 'devise'
+
+# Rubocop
+gem 'rubocop', '>=1.0', '< 2.0'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
@@ -71,4 +73,8 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
+end
+
+group :development, :test do
+  gem 'rspec-rails'
 end
