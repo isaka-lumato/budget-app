@@ -7,5 +7,14 @@ Rails.application.routes.draw do
   resources :categories do
     resources :transactions
   end
+
+  authenticated :user do
     root 'categories#index', as: :authenticated_root
+  end
+
+  unauthenticated :user do
+    root to: 'home#index'
+  end
+
+
 end
