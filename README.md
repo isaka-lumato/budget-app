@@ -1,24 +1,61 @@
-# README
+#  Budget App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
-Things you may want to cover:
+## Live Demo
+https://blog-app-tz.herokuapp.com/
 
-* Ruby version
+## Presentation
+https://www.loom.com/share/58210db4072f4370bcf446f9cf6957e7
 
-* System dependencies
+## Built With
 
-* Configuration
+* Ruby on Rails
+* Rspec
+* Psql
 
-* Database creation
+## Getting Started
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+* Ruby (ruby --v)
+* SQLite3 (sqlite3 --v)
+* Postgrestsql (psql --version)
+* Node.js (node --v)
+* Yarn (yarn --v)
 
-* Services (job queues, cache servers, search engines, etc.)
+## To get a local copy run the following steps:
+- Copy this link [this link](https://github.com/isaka-lumato/budget-app.git)
+- Open your terminal or command line
+- Run "git clone Paste [this link](https://github.com/isaka-lumato/budget_app)"
+- Open the folder with your code editor
+- Create a branch to work on
 
-* Deployment instructions
 
-* ...
+## Install RSpec
+
+To run the tests locally :
+
+* To instal RSpec for testing please run the following command on your terminal:
+
+ ` gem install rspec`
+ 
+ 👤 **Isaac Lumato**
+
+- GitHub: [@Isaac](https://github.com/isaka-lumato)
+
+- LinkedIn: [Isaac](https://www.linkedin.com/in/isaka-william-90773020b/)
+ 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+
+## Acknowledgements
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
